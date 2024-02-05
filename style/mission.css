@@ -1,0 +1,85 @@
+.mission {
+  background-color: #eee;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+
+.head-mission {
+  margin-bottom: 1rem;
+}
+
+.p-headmission {
+  margin: 10px auto;
+  width: 35%;
+  font-size: 12px;
+  font-weight: 200;
+}
+.sets-us-apart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sets-us-apart ul li {
+  font-size: 12px;
+  text-align: justify;
+  padding: 2px;
+}
+
+.sets-us-apart ul li:hover {
+  color: #4a9984;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+span.span-mission {
+  display: block;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1.h1-mission {
+  margin: 1px auto 10px;
+  width: 23%;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  font-weight: 200;
+}
+
+span.span-mission {
+  display: block;
+  padding-top: 6px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1.h1-mission::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4a9984;
+  transition: width 1s ease;
+}
+
+h1.h1-mission:hover::after {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .p-headmission {
+    width: 38%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  span.span-mission {
+    font-size: 21px;
+  }
+}

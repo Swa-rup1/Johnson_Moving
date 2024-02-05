@@ -1,0 +1,117 @@
+#About {
+  display: flex;
+  gap: 5rem;
+  margin: 4rem 0;
+
+  position: relative;
+  background-color: rgb(231, 225, 202);
+}
+
+.about-container {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  /* margin: 4rem auto; */
+
+  /* overflow: hidden; */
+}
+
+.about-left {
+  /* position: absolute; */
+  width: 50%;
+  margin-top: -3.6rem;
+  overflow: hidden;
+}
+
+.about-right {
+  z-index: 1;
+  position: relative;
+  width: 40%;
+  padding: 1rem;
+}
+
+.about-img {
+  height: 100%;
+  background-image: url("../img/about-pic.png");
+  background-size: cover;
+}
+
+.h1-About {
+  position: relative;
+
+  font-size: 1.3rem;
+  width: 12rem;
+  text-align: left;
+  padding: 8px;
+}
+
+.h1-About::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4a9984;
+  transition: width 1s ease;
+}
+
+.h1-About:hover::after {
+  width: 100%; /* Set the width to 100% on hover to show the underline */
+}
+
+.span-About {
+  font-weight: bold;
+}
+
+.span-About:hover {
+  color: #4a9984;
+}
+
+.p-About {
+  margin-bottom: 2rem;
+  text-align: justify;
+  font-size: 12px;
+}
+
+#button-About {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #4a9984;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+
+  color: white;
+}
+
+#button-About:hover {
+  transform: scale(1);
+  background-color: #4f8a7a;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+  #About {
+    gap: 1rem;
+  }
+
+  #button-About {
+    padding: 3px;
+    font-size: 0.75rem;
+  }
+
+  .p-About {
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-img {
+    background-position: center;
+  }
+
+  .about-left {
+    margin-top: -4.6rem;
+  }
+}

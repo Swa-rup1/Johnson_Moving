@@ -1,0 +1,97 @@
+/* Home CSS */
+
+.Home {
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  
+  height: 500px;
+
+}
+
+.home-img {
+  width: 55%;
+  height: 500px;
+  
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.Home .left {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5.4rem;
+  margin: 2rem;
+  color: black;
+  
+ 
+}
+
+.Home .left .h1-Home {
+  font-size: 2rem;
+
+  margin-bottom: 10px;
+}
+
+.sub-home {
+  margin-bottom: 10px; /
+}
+
+#button-home {
+  font-size: 1rem;
+  padding: 10px;
+  
+  background-color: #4a9984;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#button-home:hover {
+  transform: scale(1);
+  background-color: #4f8a7a;
+}
+
+
+@media (max-width: 767px) {
+
+/* .Home{
+  margin-top: 7.9rem;
+} */
+
+.Home .left
+{
+  
+  padding: 0.4rem;
+  
+}
+
+}
+
+
+
+
+.Home .left .h1-Home:hover {
+    color: #e6e7e5;
+
+  }
+  
+.Home .left .sub-home:hover {
+    color: #e6e7e5;
+}
+  
+.Home .left #button-home:hover {
+    color: #e6e7e5;
+}
+  
+  

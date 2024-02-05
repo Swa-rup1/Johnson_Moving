@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jhonson Moving Services</title>
+
+     <!-- StyleSheet CSS -->
+     <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="style/navbar.css " />
+     <link rel="stylesheet" href="style/home.css " />
+     <link rel="stylesheet" href="style/services.css " />
+     <link rel="stylesheet" href="style/mission.css" />
+     <link rel="stylesheet" href="style/about.css " />
+   
+    <link rel="stylesheet" href="style/booking.css" />
+    <link rel="stylesheet" href="style/testimonials.css" />
+    <link rel="stylesheet" href="style/location.css" />
+
+    <link rel="stylesheet" href="style/junk.css" />
+
+    <link rel="stylesheet" href="style/faq.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- NavBar Section -->
+    <div class="navbar-detail   " >
+      <div class="top-left">
+        <address class="nav-address">
+          Washington, DC 20020
+        </address>
+
+      </div>
+
+      <div class="top-right ">
+
+        <div class="img-na">
+          <img src="./img/call.png"  class="call-img"    alt="call-me" >319-352-2439</img> <br>
+          <p>Mon thru Friday 8 AM - 5 PM</p>
+        </div>
+       
+        <div class="button-na">
+          <button class="fill">Request a Quote </button>
+         
+        </div>
+      </div>
+    </div>
+    <nav class="navbar    sticky-top bg-body-tertiary navbar-expand-lg ">
+
+        <!-- Address NavBar -->
+      
+
+      <div class="container-fluid">
+        <div class="col-md-5 nav-space">
+          <a class="navbar-brand logo" href="#">
+            <div class="nav-logo"></div>
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav-Ul-li Detail -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <ul class="navbar-nav nav-links nav-ul">
+              <li class="nav-item nav-li">
+                <a class="nav-link nav-a" href="#Home"> Home</a>
+              </li>
+
+              <li class="nav-item nav-li">
+                <a class="nav-link nav-a" href="#About"> About Us </a>
+              </li>
+              <li class="nav-item dropdown nav-li" onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+                <a class="nav-link dropdown-toggle nav-a" href="#Services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Moving</a></li>
+                  <li><a class="dropdown-item" href="#">Storage</a></li>
+                  <li><a class="dropdown-item" href="#">Packing</a></li>
+                  <li><a class="dropdown-item" href="#">Crating</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item nav-li">
+                <a class="nav-link nav-a" href="#Location"> Location</a>
+                
+              </li>
+              <li class="nav-item nav-li">
+                <a class="nav-link nav-a" href="#Booking"> Quota</a>
+              </li>
+              <li class="nav-item nav-li">
+                <a class="nav-link nav-a" href="#FAQ">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+      </div>
+    </nav>
+
+    <!-- Home Sectionj-->
+    <section class="Home" id="Home">
+      <div class="left">
+        <h1 class="h1-Home">Johnson Moving and Storage</h1>
+        <span class="sub-home"
+          >Moving Beyond Expectations:
+        </span>
+        <button id="button-home">
+          Book A Quota<span class="arrow"> →</span>
+        </button>
+      </div>
+      <div class="home-img right ">  
+      </div>
+    </section>  
+
+    <div class="container">
+      <!-- Services Section -->
+
+        <section id="Services">
+                  <!-- Services == Cards -->
+
+            <div class="col-md-12 head-Services">
+              <h1 class="h1-Services h1-center">Welcome to <br> <span class="span-service">Our Services</span>  </h1>
+              <p class="p-headService">Professional Moving Services for Your Home or Office</p>
+            </div>
+
+            <div class="row mb-3">
+              <!-- Card 1 -->
+              <div class="col-4 col-sm-6 col-lg-4 mb-3">
+                <div class="card card-i">
+                  <img
+                    src="./img/moving.png"
+                    class="card-img-top card-img"
+                    alt="Moving"
+                  />
+                  <div class="card-body services-body">
+                    <h5 class="card-title">Moving</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <div class="card-body  ab">
+                    <button class="button-serv card-1">
+                      <a href="#" class="card-link "> Read More →</a>
+                    </button>
+                    <!-- <button class="button-serv">
+                      <a href="#" class="card-link">Book Now</a>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="col-4 col-sm-6 col-lg-4 mb-3">
+                <div class="card card-i">
+                  <img
+                    src="./img/trolley.png"
+                    class="card-img-top card-img"
+                    alt="Crating"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Crating</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <div class="card-body ab">
+                    <button class="button-serv card-1">
+                      <a href="#" class="card-link "> Read More →</a>
+                    </button>
+                    <!-- <button class="button-serv">
+                      <a href="#" class="card-link">Book Now</a>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="col-4 col-sm-6 col-lg-4 mb-3">
+                <div class="card card-i">
+                  <img
+                    src="./img/warehouse.png"
+                    class="card-img-top card-img"
+                    alt="Storage"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Storage</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <div class="card-body ab">
+                    <button class="button-serv card-1">
+                      <a href="#" class="card-link "> Read More →</a>
+                    </button>
+                    <!-- <button class="button-serv">
+                      <a href="#" class="card-link">Book Now</a>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+
+              
+              <!-- Card 4 -->
+              <div class="col-4 col-sm-6 col-lg-4 mb-3">
+                <div class="card card-i">
+                  <img
+                    src="./img/packing.png"
+                    class="card-img-top card-img"
+                    alt="Packing"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Packing</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <div class="card-body ab">
+                    <button class="button-serv card-1">
+                      <a href="#" class="card-link "> Read More →</a>
+                    </button>
+                    <!-- <button class="button-serv">
+                      <a href="#" class="card-link">Book Now</a>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="col-4 col-sm-6 col-lg-4 mb-3">
+                <div class="card card-i">
+                  <img
+                    src="./img/shipping.png"
+                    class="card-img-top card-img"
+                    alt="Shipping"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Shipping</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                  <div class="card-body ab">
+                    <button class="button-serv card-1">
+                      <a href="#" class="card-link "> Read More →</a>
+                    </button>
+                    <!-- <button class="button-serv">
+                      <a href="#" class="card-link">Book Now</a>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              
+            
+
+
+              
+                
+            </div> 
+
+              <!-- Card-End -->
+
+              <!-- What set us Apart 🤔  -->
+              <section class="mission">
+                  <div class="col-md-12 head-mission">
+                      <h1 class="h1-mission h1-center">What set us <br> <span class="span-mission">Apart 🤔</span>  </h1>
+                      <p class="p-headmission">Moving Beyond Expectations: Unmatched Quality, Every Time</p>
+                  </div>
+
+                  <div class="sets-us-apart">
+                    
+                    <ul>
+                      <li>Easily Accessible Services</li>
+                      <li>Reasonable Rates</li>
+                      <li>Local & Long-Distance Expertise</li>
+                      <li>International Shipping</li>
+                      <li>Short Notice Moves</li>
+                      <li>Flat Rate or Hourly Options</li>
+                      
+                    </ul>
+
+                    <ul>
+                      <li>Complete Packing Services</li>
+                      <li>On Time Pick-up & Delivery</li>
+                      <li>Residential/Commercial/Home/Apartment</li>
+                      <li>Junk Removal Services</li>
+                      <li>Organ & Piano Moving</li>
+                     
+                      <li>Affordable Storage</li>
+                      <!-- Add more bullet points as needed -->
+                    </ul>
+                  </div>
+            </section>
+
+          
+        </section>
+    </div>
+
+       <!-- About Section -->
+       <section id="About">
+        <div class="about-container">
+            <div class="about-left">
+         
+
+          <div class="about-img right ">  
+          </div>
+
+
+            </div>
+
+            <div class="about-right">
+              <h1 class="h1-About">
+                About <span class="span-About"> Us.</span>
+              </h1>
+              <p class="head-About">Hello, and welcome to Johnson Moving and Storage!</p>
+              <p class="p-About">
+                We’re the moving and storage experts! Whether you need a mover for your home, office, apartment, organ or piano, Johnson Moving and Storage is the company you can trust. We move with care and we service the entire Washington DC, Maryland and Virginia area. We specialize in local moves in Washington DC, Southern Maryland and Fairfax. Va. Let us put our 30 years of experience to work for you. We look forward to helping you make your move a success.
+                
+                   
+              </p>
+              <button id="button-About">
+                Learn More About Us <span class="arrow"> →</span>
+              </button>
+            </div>
+        </div>
+      </section>
+
+      <!-- Location Section -->
+      <div class="container">
+
+        <section id="Location">
+          <div class="col-md-12 head-location">
+            <h1 class="h1-location h1-center">
+              Our <span class="span-location">Location</span>
+            </h1>
+            <p class="p-headlocation">Area of Service</p>
+          </div>
+        
+          <div class="row mb-3">
+            <!-- Card 1 -->
+            <div class="col-4 col-sm-6 col-lg-4 mb-3  location-col">
+              <div class="card card-lo">
+                <img
+                  src="./img/DC.webp"
+                  class="card-img-top location-img"
+                  alt="Moving"
+                />
+                <div class="card-body location-body">
+                  <h3 class="card-title location-title"><img src= "./img/location.png" alt="location" class="location-mark">  District Of Columbia</h5>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="col-4 col-sm-6 col-lg-4 mb-3 location-col">
+              <div class="card card-lo">
+                <img
+                  src="./img/MD.jpg"
+                  class="card-img-top location-img"
+                  alt="Moving"
+                />
+                <div class="card-body location-body ">
+                  <h3 class="card-title location-title"><img src= "./img/location.png" alt="location" class="location-mark"> MaryLand</h5>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="col-4 col-sm-6 col-lg-4 mb-3 location-col">
+              <div class="card card-lo">
+                <img
+                  src="./img/VA.jpeg"
+                  class="card-img-top location-img"
+                  alt="Moving"
+                />
+                <div class="card-body location-body">
+                  <h3 class="card-title location-title"><img src= "./img/location.png" alt="location" class="location-mark"> Virginia</h5>
+                </div>
+              </div>
+            </div>
+        
+           
+          </div>
+        </section>
+        
+      </div>
+
+      <!-- Junk Removal Section -->
+
+      <section class="Junk">
+
+        <div class="left">
+              <div class="contact">
+                <h5 class="contact-h">Serving DC, MD, VA</h5>
+                <p class="contact-p1">1532 Ft Davis Street SE</p>
+                <p class="contact-p2">Washington, DC 20020 <br>
+                  202-329-5995 <br>
+                  301-868-0320
+                </p>
+                 
+              </div>
+
+              <div class="ad">
+                <a href="https://www.movinginsurance.com/index.asp?Aff=8561">
+                  <img src="./img/Be Safe Secure Insured Animated 468x60.gif" alt="Moving-insurance" class="ad-moving">
+                </a>
+              </div>
+
+        </div>
+
+        <div class="right">
+          <h5 class="h-right">We also move Junk. <br>
+            Call us if you are in need of junk removal in the Washington DC Metro Area.</h5>
+
+            <img src="./img/Moving-boxes.jpg" alt="junk-box" class="junk">
+        </div>
+      </section>
+
+        <!-- Testimonial, Quota -->
+      <div class="container">
+
+        <!-- Testimonials -->
+        <section id="Testimonials">
+            <div class="col-md-12 head-Services">
+              <h1 class="h1-Testimonials h1-center">Welcome to <br> <span class="span-Testimonials">Testimonials</span>  </h1>
+              <p class="p-headTestimonials">What Our Clients Say</p>
+            </div>
+
+              <div id="carouselExampleAutoplaying" class="carousel slide Review"  data-bs-ride="carousel" >
+
+                <div class="carousel-inner">
+                
+                  <!-- Review-1 -->
+                  <div class="carousel-item active carousel-testimonial">
+                    
+                    <img src="./img/user.png" alt="user" class="carousel-img">
+
+                    <div class="review">
+                        <h3 class="title">Xavier Martinez</h3>
+                        <p class="descrip">Johnson Moving and Storage exceeded my expectations with their impeccable service. The team was professional, efficient, and handled my belongings with the utmost care</p>
+                        <p class="rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+
+                  </div>
+
+                  <!-- Review-2 -->
+                  <div class="carousel-item carousel-testimonial">
+                
+                    <img src="./img/user.png" alt="user" class="carousel-img">
+                    <div class="review">
+                        <h3 class="title">Adrian Turner</h3>
+                        <p class="descrip">"Choosing Johnson Moving and Storage was the best decision for my move. Their dedication to customer satisfaction and prompt service made the experience smooth and worry-free.</p>
+                        <p class="rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+
+                  </div>
+
+                  <!-- Review-3 -->
+                  <div class="carousel-item carousel-testimonial">
+                    
+                    <img src="./img/user.png" alt="user" class="carousel-img">
+                    <div class="review">
+                      <h3 class="title">Ava Carter</h3>
+                      <p class="descrip">Exceptional moving services! Johnson Moving and Storage made our relocation hassle-free with their professionalism, transparency, and commitment to delivering a superior moving experience.</p>
+                      <p class="rating">⭐⭐⭐⭐⭐</p>
+                  </div>
+
+                  </div>
+
+                  <!-- Review-4-->
+                  <div class="carousel-item carousel-testimonial">
+                    <img src="./img/user.png" alt="user" class="carousel-img">
+                    <div class="review">
+                      <h3 class="title">Elena Herrera  Ramirez </h3>
+                      <p class="descrip">Johnson Moving and Storage eased the moving process for my delicate musical instruments, highlighting their dedication to preserving the integrity of my valued belongings.</p>
+                      <p class="rating">⭐⭐⭐⭐⭐</p>
+                  </div>
+
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+       
+        <!-- Booking  Quota Section -->
+
+        <section id="Booking">
+
+          
+            
+
+            <div class="col-md-12 head-Booking">
+              <h1 class="h1-Booking h1-center">Book a  <span class="span-booking">Quota</span>  </h1>
+             
+            </div>
+
+            <form action="#">
+              <div class="user_details"> 
+                    <!-- Full Name -->
+                    <div class="user_fill">
+                          <label class="user-label">Full Name</label>
+                        <div class="input-box ">
+                          
+                        <img src="./img/about.jpg" alt="" class="icon">
+
+                        
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                          
+                        </div>
+                    </div>
+
+                  <!-- Phone Number -->
+                  <div class="user_fill">
+                        <label class="user-label">Phone Number</label>
+                        <div class=" input-box">
+                          <img src="./img/about.jpg" alt="" class="icon">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                          
+                        </div>
+                  </div>
+                  <!-- Date -->
+                  <div class="user_fill date">
+                    <label class="user-label">Date</label>
+                      <div class="input-box  ">
+                        <img src="./img/about.jpg" alt="" class="icon">
+                      <input required="" type="date" name="text" autocomplete="off" class="input">
+                        
+                      </div>
+                      
+                  </div>
+                  
+
+                  <!-- Time -->
+                  <div class="user_fill">
+                    <label class="user-label">Time</label>
+                    <div class="input-box">
+                      <img src="./img/about.jpg" alt="" class="icon">
+                    <input required="" type="time" name="text"  class="input">
+                      
+                    </div>
+
+                  </div>
+                  
+                  
+                  <!-- Location -->
+                  <div class="user_fill">
+                    <label class="user-label">Location</label>
+                    <div class="input-box">
+                      <img src="./img/map.png" alt="" class="icon">
+                    <input required="" type="text" name="text" autocomplete="off" class="input">
+                    
+                    </div>
+
+                  </div>
+                 
+                  
+
+                  <!-- Message -->
+                  <div class="user_fill text-box">
+                      <div class="input-box textarea">
+                      <!-- <img src="./img/chat.png" alt="chat" class="icon"> -->
+                      <textarea name="message" class="message" cols="26" rows="4" placeholder=""></textarea>
+                        <!-- <label class="message-label">Time</label> -->
+                      </div>
+                  </div>
+
+                  
+                  <div class="Quota_submit ">
+                  <button class=" submit_button">Submit</button>
+
+                </div>
+
+              </div>
+
+            </form>
+            
+            
+            
+
+
+          
+        </section>
+
+        <!-- FAQ -->
+        <section class="FAQ">
+          <div class="col-md-12 head-Booking">
+            <h1 class="h1-Booking h1-center">  <span class="span-booking">FAQ</span>  </h1>
+           
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <!-- FAQ--1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Are you licensed and insured?
+                </button>
+              </h2>
+
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We are fully licensed and insured and maintain an exemplary record with our clients and the Better Business Bureau. <br>Johnson Moving and Storage is an authorized agent for Affiliated Van Lines. We’re members of American Moving and Storage Association, the D.C. Chamber of Commerce, D.C. and MD Better Business Bureaus, the Registered Mover of Maryland Incorporated and more.
+
+                </div>
+              </div>
+
+            </div>
+
+            <!-- FAQ--2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Can you move specialized items like pianos and organs?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Absolutely, we have expertise in moving specialized items, including pianos and organs.</div>
+              </div>
+            </div>
+
+            <!-- FAQ--3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Do you provide a fixed-rate or hourly pricing for moves?
+
+
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We offer both fixed-rate and hourly pricing options to cater to your specific needs.</div>
+              </div>
+            </div>
+
+             <!-- FAQ--4-->
+             <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What forms of payment do you accept?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We gladly accept MasterCard, Visa, Discover, and American Express for your convenience.</div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer Section -->
+
+      
+  <!-- Footer -->
+    <footer class="text-center text-lg-start ">
+
+  <div class="Footer-box p-4 pb-0">
+
+      <section class="">
+
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class=" mb-4 font-weight-bold">
+                  JohnSon Moving and Storage
+                  </h6>
+                  <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+                  <p>
+                    <a class="footer-service">Moving</a>
+                  </p>
+                  <p>
+                    <a class="footer-service">Crating</a>
+                  </p>
+                  <p>
+                    <a class="footer-service">Storage</a>
+                  </p>
+                  <p>
+                    <a class="footer-service">Packing</a>
+                  </p>
+                  <p>
+                    <a class="footer-service">Shipping</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Navigation
+                  </h6>
+                  <p>
+                    <a  href="About Us " class="footer-nav">About us</a>
+                  </p>
+                  <p>
+                    <a href="Services" class="footer-nav">Services</a>
+                  </p>
+                  <p>
+                    <a href="Location" class="footer-nav">Location</a>
+                  </p>
+                
+                  <p>
+                    <a href="Quota" class="footer-nav">Quota</a>
+                  </p>
+
+                  <p>
+                    <a href="FAQ" class="footer-nav">FAQ</a>
+                  </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                  <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                  <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+
+      </section>
+
+
+        <hr class="my-3">
+
+        <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <!-- Grid column -->
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <!-- Copyright -->
+                <div class="p-3">
+                  © 2020 Copyright:
+                  <a class="copy" 
+                    >JhonsonMoving</a
+                    >
+                </div>
+                <!-- Copyright -->
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+            </div>
+        </section>
+
+  </div>
+
+  </footer>
+
+
+    
+
+    <script src="script.js"></script>
+    <script src="./js/nav.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
